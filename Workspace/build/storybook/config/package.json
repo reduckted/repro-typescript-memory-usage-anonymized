@@ -1,0 +1,17 @@
+{
+  "name": "@workspace-dev/storybook-config",
+  "description": "Storybook Configuration.",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./main": {
+      "default": "./main/index.js"
+    },
+    "./manager": {
+      "default": "./manager/index.js"
+    },
+    "./preview": {
+      "default": "./preview/index.js"
+    }
+  }
+}
